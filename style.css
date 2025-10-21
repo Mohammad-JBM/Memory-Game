@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+p {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+span {
+    color: black;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+    gap: 6px;
+}
+
+li {
+    border-radius: 20%;
+    list-style: none;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 1px black;
+}
+
+i {
+    font-size: 3em;
+    opacity: 0;
+}
+
+.visible i {
+    opacity: 1;
+}
+
+.match {
+    background-color: darkgreen;
+}
+
+.unmatch {
+    background-color: darkred;
+}
+
+.winner-container {
+    background-color: rgba(0, 0, 0, 0.801);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    visibility: hidden;
+}
+
+.win-box {
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.showWinnerBox {
+    visibility: visible !important;
+}
+/* Mohammad JBM Design This Project */
