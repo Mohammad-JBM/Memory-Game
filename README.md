@@ -57,7 +57,7 @@
 <h3 align="center">🎮 Memory Game Preview</h3>
 
 <p align="center">
-  <img src="./img/image.png" alt="Memory Game Screenshot" width="600" style="border-radius:12px; box-shadow: 0 0 15px rgba(0,0,0,0.2);" />
+  <img src="img/Image.png" alt="Memory Game Screenshot" width="600" style="border-radius:12px; box-shadow: 0 0 15px rgba(0,0,0,0.2);" />
 </p>
 
 ---
@@ -66,4 +66,5 @@
 
 **👤 Mohammad JBM**
 📧 Email: [mohammadjbm1385@gmail.com](mailto:mohammadjbm1385@gmail.com)
+
 🌐 GitHub: [github.com/Mohammad-JBM](https://github.com/Mohammad-JBM)
